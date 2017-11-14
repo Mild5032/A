@@ -1164,7 +1164,7 @@ def nameUpdate():
 thread2 = threading.Thread(target=nameUpdate)
 thread2.daemon = True
 thread2.start()
-           except:
+           
                 elif msg.text.lower() == "ลบรัน":
                      gid = cl.getGroupldslnvited()
                      for i in gid:
